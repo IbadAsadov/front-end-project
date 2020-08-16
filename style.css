@@ -1,0 +1,566 @@
+.bg-black{
+    background-color: black;
+}
+.w-80{
+    width: 80%;
+}
+li{
+    list-style-type:none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+/* index.html */
+
+/* header */
+.h-a a{  
+    color: white;
+}
+.h-a a:hover{
+    text-decoration: none;
+}
+.h-i{
+    color: white;
+}
+.h-i a i{
+    font-size: 19px;
+    color: white;
+}
+.h-i a:hover i{
+    color: red;
+}
+/* menu */
+.menu-ul li a{
+    color: #102955 !important;
+}
+.menu-ul li a:hover{
+    color: red !important;
+}
+.font-b{
+    font-weight: 600;
+    font-size: 17px;;
+}
+.my-menu{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 3;
+    opacity: .97;
+}
+/*  */
+.vh-80{
+    min-height: 40vh;
+    margin-bottom: 100px;
+}
+.bg-image-1{
+    background-image: url(img/banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0% 0% 100% 100%/0% 0% 10% 10%;
+}
+.my-btn-2{
+    padding: 15px 45px;
+    background-color: white;
+    border: 0;
+    border-radius: 50px ;
+    color: #ff3500;
+    font-size: 18px;
+    font-weight: 500;
+}
+.my-btn-2:hover{
+    color: white;
+    background-color:#ff3500;
+    text-decoration: none;
+}
+.my-btn-2:focus{
+    outline: none;
+    
+}
+
+.dog-img{
+    position: absolute;
+}
+/* dog  */
+.font-color-1{
+   color: #191D34;
+}
+.font-50{
+    font-size: 3.5rem;
+}
+.font-color-2{
+    color: #C0C0C1;
+    line-height: 30px;
+    width: 50%;
+}
+.my-dog-card{
+    border: 1px solid #ffc5c2;
+    border-radius: 20px;
+    
+}
+.my-dog-card:hover{
+    border: 0;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15);
+    
+
+
+}
+
+.img-bg{
+    width: 170px;
+    height: 150px;
+    margin: 10px auto 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 35px;
+    background-image: url(https://colorlib.com/preview/theme/anipat/img/service/service_icon_bg_1.png);
+
+}
+.font-3{
+    color: #9A9A9B;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+/* cat */
+
+.h1-color-1{
+    color: #191D34;
+}
+.h1-color-2{
+    color: white !important;
+}
+.font-3{
+    color: #787880;
+    line-height: 30px;
+}
+.my-btn-1{
+    padding: 15px 45px;
+    background-image: linear-gradient(0deg,#f14437 0%,#ed5b0d 99%);
+    border: 0;
+    border-radius: 50px ;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.my-btn-1:hover{
+    background-image: none;
+    border: 1px solid #ff3500 !important;
+    background-color: white !important;
+    color: #ff3500 !important;
+    text-decoration: none;
+}
+.my-btn-1:focus{
+    outline: none;
+}
+
+/*  */
+
+.font-color-3{
+    color:#808094;
+}
+.border-r-1{
+    border-radius: 20px;
+}
+
+.d-f{
+    display: flex;
+    align-items: center;
+}
+.card2{
+    height: 250px;
+    width: 100%;
+}
+.card1{
+    margin-top: 25px;
+}
+
+
+
+/*  */
+.t-text{
+    padding: 10px 25px;
+    background-color: white;
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    transition: 0.4s top;
+}
+.team-card:hover .t-text{
+    top: -50px;
+}
+
+/*  */
+
+.bg-image-2{
+    background-image: url(https://colorlib.com/preview/theme/anipat/img/banner/contact_bg.png);
+    border-radius: 100% / 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.bg-image-2 div{
+    color: white;
+}
+.bg-image-2 div h4{
+    width: 60%;
+}
+.my-link{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.my-link:hover{
+    color: white;
+    text-decoration: none;
+}
+.d-b{
+    display: none;
+}
+/*  */
+
+.font-color-4{
+    color: #2E2E4E;
+}
+.bg-1{
+    background-color: #F8F8F8;
+}
+.my-ul{
+
+    padding-left: 0;
+    
+    padding-top: 10px;   
+}
+.my-ul li{
+    margin-top: 20px;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+.my-ul li a{
+    color: #7a7a7a;
+}
+
+.my-ul li a:hover{
+    color: #ED592D;
+    text-decoration: none;
+}
+
+/* blog.html */
+
+
+.bg-image-3{
+    background-image: url(https://colorlib.com/preview/theme/anipat/img/banner/bradcam.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0% 0% 100% 100%/0% 0% 10% 10%;
+
+}
+.color_w{
+    color: white;
+
+}
+.card_time{
+    background-color: red;
+    color:white;
+    width: 80px;
+    font-size: 22px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    top:-60px;
+    left: 1rem;
+    border-radius: 15px;
+    
+}
+.card_time:hover{
+    background-color: #eb592d;
+}
+.card-h3{
+    position: relative;
+    top: -35px;
+    
+}
+.card-h3 a{
+    color: #191d34;
+
+}
+.card-h3 a:hover{
+    color: red;
+}
+.card-p{
+    position: relative;
+    top: -25px;
+    color: #909092;
+    font-size: 1.2rem;
+}
+.card-span a{
+    color:#909092;
+}
+.card-span a:hover{
+    color: red;
+}
+.border-l{
+    border-left: black 1px solid;
+}
+.bg-2{
+    width: 100%;
+    background-color: #FBF9FF;
+
+}
+.search input{
+    width: 100%;
+    border: 0;
+    
+    padding: 15px 0 15px 15px;
+}
+.search button{
+    width: 100%;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 15px;
+}
+.search button:hover{
+    border:0;
+    background:red;
+    color: white;
+    transition: 1s ;
+
+}
+
+
+.my-ul-2{
+    padding-left: 0;
+}
+.my-ul-2 li{
+    padding: 17px 0;
+    
+
+}
+.li-b{
+    border-bottom: 0.1px solid #888;
+
+}
+.my-ul-2 li a{
+    color: #909092;
+}
+.my-ul-2 li a:hover{
+    color: red;
+}
+
+
+.post-a{
+    color: #191d34;
+    font-weight: 500;
+}
+.post-a:hover{
+    color: red;
+}
+.post-p{
+
+    color: #909092;
+}
+
+
+.tag-a{
+    margin-right: 10px;
+    background-color: white;
+    color: red;
+    margin-bottom: 15px;
+    display: inline-block;
+    transition: .5s;;
+    padding: 5px 15px;
+    border: 1px solid red;
+}
+.tag-a:hover{
+    color: white;
+    background-color: red;
+}
+
+/* single blog */
+
+.sb-text-1-color{
+    color: #909092;
+} 
+.text-box-1{
+    background-color: #F2F3F7;
+
+}
+.text-box-2{
+    background-color:white;
+
+}
+.sb-text-2-color{
+    color: #888;
+}
+.border-2{
+    border-left: 2px solid black;
+}
+
+.my-link-1{
+    color: #191d34;
+
+}
+
+.my-link-1:hover{
+    color: red;
+}
+
+.my-w-150{
+    width: 80px;
+}
+.w-80px{
+    min-width: 60px;
+}
+.my-link-2{
+    color: #909092;
+
+
+
+}
+.my-link-2:hover{
+    color: red;
+}
+.f-s-15{
+    font-size: 13px;
+    
+
+}
+.border-3{
+    border-radius: 10px;
+    border: 1px solid #f0e9ff;
+}
+.border-3:focus{
+    outline: none;
+}
+.my-pr-0{
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.my-pl-0{
+    padding-right: 0;
+    padding-left: 10px;
+}
+.my-inline-btn{
+    transition: .5s;
+    padding: 20px 40px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+}
+.my-inline-btn:hover{
+    background-color: red;
+    color: white;
+
+}
+.my-block-1{
+    line-height: 1.9rem;
+    background-color: #F9F9FF;
+    border-left: 1px solid black;
+}
+
+.img-1{
+    padding-top: 7%;
+    
+}
+.img-1 img{
+    float: right;
+}
+
+
+
+.pt-13{
+    padding-top: 7%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+    .h-i{
+        text-align: center;
+    }
+    .font-50{
+        font-size: 2.5rem;
+    }
+    .font-color-2{
+        width: 90%;
+    }
+    .dog-img{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width:762px){
+    .h-a{
+        text-align: center;
+    }
+    .card1{
+        margin-top: 50px;
+    }
+    .card2{
+        height: auto;
+    }
+    .bg-image-2 div h4{
+        width: 70%;
+    }
+    .my-pr-0{
+        padding-right: 0;
+    }
+    .my-pl-0{
+        padding-left: 0;
+
+    }
+    .img-1 img{
+        float: left;
+    }
+    .img-1{
+        padding-top: 5%;
+    }
+    .my-row-1{
+        padding-left: 35px;
+    }
+    
+    
+}
+@media only screen and (max-width:540px){
+   .h-none{
+       display: none;
+   }
+   .font-50{
+    font-size: 2rem;
+   }
+   .bg-image-2 div h4{
+    width: 90%;
+   }
+   .d-b{
+       display: inline;
+   }
+   .card_time{
+       left: .5rem;
+       min-width: 10px;
+       padding: 10px;
+   }
+   .comment{
+       font-size: 14px;
+   }
+   .my-row-1{
+    padding-left: 30px;
+}
+}
+
